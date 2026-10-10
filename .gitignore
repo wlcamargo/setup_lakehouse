@@ -1,0 +1,23 @@
+# MinIO local storage (persisted volumes, regenerated on `docker compose up`)
+data/
+docker/data/
+
+# Secrets
+.env
+docker/.env
+
+# Raw source data (large files, not meant for version control)
+raw_data/*.parquet
+
+# Jupyter
+notebooks/sparkdata/
+notebooks/spark-warehouse/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
