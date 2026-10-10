@@ -6,8 +6,6 @@ docker/data/
 .env
 docker/.env
 
-# Raw source data (large files, not meant for version control)
-raw_data/*.parquet
 
 # Jupyter
 notebooks/sparkdata/
